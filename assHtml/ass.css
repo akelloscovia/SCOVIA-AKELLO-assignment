@@ -1,0 +1,41 @@
+body{
+  background-image: url(../island1.jpeg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 60%;
+}
+.container{
+    display:flex;
+    flex-direction:column ;
+    align-items: stretch;
+    height: 700px;
+    width: 100%;
+    border: 1px solid;
+}
+.top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top-right{
+    position: absolute;
+    top:0;
+    right:0;
+  }  
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+    margin:0;
+  } 
+.bottom-left{
+    position: absolute;
+    bottom: 0;
+    right:0;
+  }   
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
